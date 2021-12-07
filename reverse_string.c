@@ -6,7 +6,7 @@ int main()
 {
 	char inp[100];
 	int i, len ;
-	printf("enter digit : ");
+	printf("enter strings : ");
 	scanf("%s",&inp);
 	len = strlen(inp);
 	len -= 1;
