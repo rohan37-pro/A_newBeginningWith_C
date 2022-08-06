@@ -5,6 +5,7 @@ int main(){
 	int ptr1 = 0;
 	int ptr2=1;
 
+	printf("enter a number : ");
 	scanf("%d", &num); 
 	int num_array[num][num];
 	for (int i=1; i<=num; i++){
