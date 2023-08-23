@@ -4,9 +4,12 @@
 
 
 #include <stdio.h>
+
+
+
 int linear_search(int[], int, int);
-int main()
-{
+
+int main(){
    int array[100], search, c, n, position;
    /* search - element to search, c - counter, n - number of elements in array,
    position - The position in which the element is first found in the list. */
@@ -14,7 +17,7 @@ int main()
     scanf("%d", &n); // Number of elements in the array is read from the test case data
 
     for (c = 0; c < n; c++)
-    scanf("%d", &array[c]); //Elements of array is read from the test data
+        scanf("%d", &array[c]); //Elements of array is read from the test data
 
     scanf("%d", &search);  //Element to search is read from the test case data
 
@@ -35,5 +38,7 @@ int main()
 	printf("%d is not present in the array.", search);
     } 
 }
-// formated nicely
+// formate modified
+// it's done
+// nptel week 9 assignment 2
 
