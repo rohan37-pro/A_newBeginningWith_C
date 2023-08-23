@@ -23,17 +23,17 @@ int main()
    printf("%d is present at location %d.", search, position+1); //As array[0] has the position 1
    */
 
-int flag = 0;
-for (int position=0; position<n; position++){
-  if (array[position]==search){
-  	printf("%d is present at location %d.", search, position+1);
-    flag = 1;
-    break;
-  }
-}
-if (flag==0) {
+    int flag = 0;
+    for (int position=0; position<n; position++){
+  	if (array[position]==search){
+  	    printf("%d is present at location %d.", search, position+1);
+    	    flag = 1;
+    	    break;
+    	}
+    }
+    if (flag==0) {
 	printf("%d is not present in the array.", search);
+    } 
 }
-}
-
+// formated nicely
 
